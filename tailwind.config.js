@@ -14,6 +14,10 @@ module.exports = {
       },
       fontFamily: {
         'inter': ['Inter']
+      },
+      colors: {
+        'blue-gradient': '#7FEEC3',
+        'blue-gradient2': '#5C83DE',
       }
     },
   },
