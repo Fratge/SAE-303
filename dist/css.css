@@ -1,0 +1,87 @@
+#cards:hover > .card::after {
+    opacity: 1;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: 1px #515151 solid;
+    position: relative; 
+  }
+  
+  .card:hover::before {
+    opacity: 1;
+  }
+  
+  .card::before,
+  .card::after {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+  }
+  
+  .card::before {
+    background: radial-gradient(
+      800px circle at var(--mouse-x) var(--mouse-y), 
+      rgba(255, 255, 255, 0.06),
+      transparent 40%
+    );
+    z-index: 3;
+  }
+  
+  .card::after {  
+    background: radial-gradient(
+      600px circle at var(--mouse-x) var(--mouse-y), 
+      rgba(255, 255, 255, 0.4),
+      transparent 40%
+    );
+    z-index: 1;
+  }
+
+  #souriss:hover > .souris::after {
+    opacity: 1;
+  }
+  .souris{
+    position: relative;
+  }
+  
+  .souris:hover::before {
+    opacity: 1;
+  }
+  
+  .souris::before,
+  .souris::after {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+  }
+  
+  .souris::before {
+    background: radial-gradient(
+      100px circle at var(--mouse-x) var(--mouse-y), 
+      rgba(255, 255, 255, 0.06),
+      transparent 80%
+    );
+    z-index: 0;
+  }
+  
+  .souris::after {  
+    background: radial-gradient(
+      100px circle at var(--mouse-x) var(--mouse-y), 
+      rgba(104, 185, 208, 0.975),
+      transparent 80%
+    );
+    z-index: 0;
+  }
