@@ -7,7 +7,8 @@ module.exports = {
         '120': '47rem',
         '115' : '33rem',
         '116': '38rem',
-        '105' : '29.67rem'
+        '105' : '29.67rem',
+        '33%': '32.5%'
       },
       height: {
         '110': '34rem',
@@ -32,7 +33,10 @@ module.exports = {
         'smooth-purple' : '#D36FD2',
         'fondlight': '#161616',
         'contour': '#515151',
-      }
+      },
+      spacing: {
+        '7.5': '-7.5px',
+      },
     },
   },
   plugins: [],
