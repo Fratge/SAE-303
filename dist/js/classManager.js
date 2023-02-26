@@ -14,3 +14,26 @@ buttonPlus.addEventListener('click', function(){
     hiddenContainer.classList.remove('hidden');
   }
 });
+
+const consommationImage = document.getElementById('consommation-image');
+const proportions = document.getElementById('proportions');
+const volumes = document.getElementById('volumes');
+const consommationText = document.getElementById('consommation-text');
+
+proportions.style.background = 'linear-gradient(90deg, #FF79C6 0%, #6854EF 100%)';
+
+volumes.addEventListener('click', function(){
+  consommationImage.setAttribute('src', '../../src/images/consommation_03.png');
+  proportions.style.background = '';
+  volumes.style.background = 'linear-gradient(90deg, #FF79C6 0%, #6854EF 100%)';
+  consommationText.innerHTML = 'Volume (en milliards de m3) et consommation d\'eau douce prélevée en fonction des secteurs d\'activité en 2018';
+
+});
+
+proportions.addEventListener('click', function() {
+  consommationImage.setAttribute('src', '../../src/images/consommation_02.png');
+  proportions.style.background= 'linear-gradient(90deg, #FF79C6 0%, #6854EF 100%)';
+  volumes.style.background = '';
+  consommationText.innerHTML = 'Volume et consommation d\'eau douce prélevée en fonction des secteurs d\'activité en 2018';
+
+});
