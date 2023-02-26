@@ -15,7 +15,7 @@
 </head>
 <body class="overflow-x-hidden"> 
     <header class="h-screen bg-gradient-to-r from-blue-gradient to-blue-gradient2 flex flex-col items-center justify-between">
-        <div class="w-full px-24">
+        <!-- <div class="w-full px-24">
             <nav class="w-full flex justify-between items-center">
                 <img src="../src/images/logo.png" alt="logo">
                 <ul class="w-72 flex justify-around text-white">
@@ -24,12 +24,12 @@
                     <li class="text-xl"><a href="#">Partie</a></li>
                 </ul>
             </nav>
-        </div>
+        </div> -->
         
-        <div class="bg-main h-96 w-96 transform rotate-45 m-auto text-center">
+        <div class="bg-main h-64 w-64 transform rotate-45 lg:h-96 lg:w-96 5 m-auto text-center">
             <div class="absolute w-4/5 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -rotate-45 font-inter ">
                 <p class="text-white">Seulement</p>
-                <p class="text-10xl font-bold -my-12 text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">1%</p>
+                <p class="text-8xl lg:text-10xl lg:my-4 font-bold  text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">1%</p>
                 <p class="text-white mb-12">de l'eau que tu consommes à la maison est utilisée pour être bue</p>
             </div>
         </div>
@@ -39,13 +39,13 @@
         </svg>   
     </header>
 
-    <main class="bg-main px-24">
-        <section class="flex justify-between gap-70"  id="partie1">
-            <div class="w-5/12" data-aos="fade-right">
-                <h1 class="text-white text-8xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-gradient to-purple-gradient2">La gestion de l'eau</span> : un enjeu environnemental majeur</h1>
+    <main class="bg-main px-4 lg:px-24">
+        <section class="flex flex-col lg:justify-between lg:flex-row lg:gap-70" id="partie1">
+            <div class="lg:w-5/12" data-aos="fade-right">
+                <h1 class="text-white text-3xl sm:text-6xl lg:text-8xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-gradient to-purple-gradient2">La gestion de l'eau</span> : un enjeu environnemental majeur</h1>
             </div>
-            <div class="w-5/12" data-aos="fade-left">
-                <div class="w-115 ml-36 bg-light-dark border border-solid border-light p-9 text-light-grey text-sm flex flex-col gap-4 relative">
+            <div class="lg:w-5/12" data-aos="fade-left">
+                <div class="p-4  mt-4 lg:w-115 lg:ml-36 lg:p-9 bg-light-dark border border-solid border-light  text-light-grey text-sm flex flex-col gap-4 relative">
                     <p>
                         Depuis quelques années maintenant, l’eau est perçue comme une <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">ressource précieuse</span> 
                         et de plus en plus convoitée.
@@ -58,9 +58,9 @@
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">L'évolution de notre mode de vie</span> et de notre mode de consommation impacte considérablement l’accès et l’usage de cette ressource. Il existe cependant des 
                         <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">solutions</span> à l’échelle à la fois locale et globale, sur le court et le long terme.
                     </p> 
-                    <div class="absolute -bottom-8 -right-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45">
-                        <a href="#">
-                            <svg class="transform -rotate-45" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="hidden lg:block lg:absolute lg:-bottom-8 lg:-right-8 lg:bg-gradient-to-r lg:from-blue-gradient lg:to-blue-gradient2 lg:transform lg:rotate-45">
+                        <a href="#section2">
+                            <svg class="lg:transform lg:-rotate-45" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M31.5478 43.462C31.9383 43.8525 32.5715 43.8525 32.962 43.462L39.326 37.098C39.7165 36.7075 39.7165 36.0743 39.326 35.6838C38.9354 35.2933 38.3023 35.2933 37.9117 35.6838L32.2549 41.3407L26.598 35.6838C26.2075 35.2933 25.5743 35.2933 25.1838 35.6838C24.7933 36.0743 24.7933 36.7075 25.1838 37.098L31.5478 43.462ZM31.2549 21.7549L31.2549 42.7549L33.2549 42.7549L33.2549 21.7549L31.2549 21.7549Z" fill="#F3F3F3"/>
                             </svg>
                         </a>
@@ -69,16 +69,16 @@
             </div>
         </section>
 
-        <section class="flex h-fit items-center justify-between mt-80 h-">
-            <div class="text-light-grey w-2/4  border border-solid border-light p-8 bg-light-dark" data-aos="fade-right">
-                <h2 class="text-4xl text-white font-bold" id="cycle-titre">Des flux divers et un cycle complexe, l’eau se transforme encore et encore</h2>
+        <section class="flex h-fit items-center justify-between flex-col mt-40  gap-5 lg:flex-row lg:mt-80 " id="section2">
+            <div class="text-light-grey border h-105 border-solid border-light p-4 lg:w-2/4 lg:p-8 lg:h-117 bg-light-dark" data-aos="fade-right">
+                <h2 class=" text-2xl lg:text-4xl text-white font-bold" id="cycle-titre">Des flux divers et un cycle complexe, l’eau se transforme encore et encore</h2>
                 <p id="cycle-description" class="text-sm my-3">
                     La ressource de l'eau provient principalement des forages d’eau souterraine, des cours d’eau (rivières, fleuves), de la pluie, des nappes phréatiques et des plans d’eau, voici son cycle :
                 </p>
                 <p  class="text-sm underline mb-2">Source : <a id="cycle-source"></a></p>
                 <img id="cycle-image" src="../src/images/cycle.png">
             </div>
-            <div class="w-105 bg-light-dark border border-solid border-light text-light-grey" data-aos="fade-left">
+            <div class=" w-full lg:w-105 bg-light-dark border border-solid border-light text-light-grey" data-aos="fade-left">
                 <div class="text-white w-full">
                     <div class="flex items-center gap-20 border border-collapse border-solid border-light px-7 py-6 cycle">
                         <h3 class="font-bold w-2/4">L'évaporation</h3>
@@ -108,11 +108,11 @@
             </div>
         </section>
 
-        <section class="text-white mt-80">
-            <div class="w-116 h-60 ml-36 mb-36 bg-light-dark border border-solid border-light p-9 text-light-grey text-sm relative flex items-center">
-                <h4 class="text-white text-5xl font-bold">Que représente la <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">consommation</span> d’eau à l’échelle mondiale et nationale ?</h4>
-                <div class="absolute -bottom-8 -right-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45">
-                    <a href="#">
+        <section class="text-white mt-40 lg:mt-80" >
+            <div class="p-4 lg:w-116 lg:h-60 lg:ml-36  lg:mb-36 bg-light-dark border border-solid border-light lg:p-9 text-light-grey text-sm relative flex items-center" data-aos="fade-down-right">
+                <h4 class="text-white text-3xl font-bold lg:text-5xl">Que représente la <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">consommation</span> d’eau à l’échelle mondiale et nationale ?</h4>
+                <div class="hidden lg:block absolute -bottom-8 -right-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45">
+                    <a href="#industrie">
                         <svg class="transform -rotate-45" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M31.5478 43.462C31.9383 43.8525 32.5715 43.8525 32.962 43.462L39.326 37.098C39.7165 36.7075 39.7165 36.0743 39.326 35.6838C38.9354 35.2933 38.3023 35.2933 37.9117 35.6838L32.2549 41.3407L26.598 35.6838C26.2075 35.2933 25.5743 35.2933 25.1838 35.6838C24.7933 36.0743 24.7933 36.7075 25.1838 37.098L31.5478 43.462ZM31.2549 21.7549L31.2549 42.7549L33.2549 42.7549L33.2549 21.7549L31.2549 21.7549Z" fill="#F3F3F3"/>
                         </svg>
@@ -120,19 +120,19 @@
                 </div>
             </div>
 
-            <div class="mb-3">
-                <p class="text-center text-7xl font-bold z-40 relative" data-aos="fade-left">
+            <div class="mb-3 mt-11 text-3xl lg:text-7xl">
+                <p class="text-center font-bold z-40 relative" data-aos="fade-down-left">
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600" >3 800 000 000 000 000</span>
                     litres d'eau
                 </p>
-                <p class="text-center text-7xl font-bold z-40 relative" data-aos="fade-right">km3 sont
+                <p class="text-center font-bold z-40 relative" data-aos="fade-down-right">km3 sont
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">consommés</span>
                 </p>
-                <p class="text-center text-7xl font-bold z-40 relative" data-aos="fade-left">chaque
+                <p class="text-center font-bold z-40 relative" data-aos="fade-down-left">chaque
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">années</span>
                     dans le monde
                 </p>
-                <p class="text-center z-40">
+                <p class="text-center text-sm lg:text-xl z-40 lg:mt-6">
                     Volume d’eau nécessaire pour la production des biens et des services consommés.
                 </p>
               </div>
@@ -148,144 +148,11 @@
                 </div>
               </div>
         </section>
-        
-        <section class="text-white mt-80">
-            <div id="cards">
-              <div
-                class="card overflow-hidden w-3/5 bg-fondlight p-4 border-1 border-contour rounded-md"
-              >
-                <div>
-                  <h3 class="text-3xl font-bold">
-                    Un volume très variable selon les
-                    <span
-                      class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2"
-                      >habitants</span
-                    >
-                  </h3>
-                  <p>
-                    La consommation d’eau varie énormément en fonction des pays.
-                    Cette situation est principalement due à la richesse des pays,
-                    ce qui a directement un impact sur leur accès à de l’eau, et
-                    surtout de l’eau potable.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-    
-          <section class="text-white mt-80">
-            <div id="cards" class="flex justify-between">
-              <div class="card overflow-hidden w-1/4 bg-fondlight p-4 border-1 border-contour rounded-md">
-                  <h3 class="text-3xl font-bold">
-                    L’impact de la <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">récession</span>
-                    de
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">1975</span>
-                  </h3>
-                  <h3 class="text-7xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">106</span> litres</h3>
-                  <h3 class="text-3xl font-bold">par jour par habitant</h3>
-    
-                  <p>
-                    Cela veut dire que chaque français a en moyenne consommé l’équivalent de 500 baignoires remplies en 2004 contre 320 en 1975 Source : eaufrance.fr et calculs personnels
-                  </p>
-              </div>
-    
-              <div class="rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                <h3 class="text-3xl font-bold">Des centaines de baignoires pleines
-                </h3>
-                <img src="/src/images/bains.png" alt="baignoire" />
-    
-                <p class="bg-black">
-                    Cela veut dire que chaque français a en moyenne consommé l’équivalent de 500 baignoires remplies en 2004 contre 320 en 1975 Source : eaufrance.fr et calculs personnels
-                </p>
-            </div>
-    
-            <div class="card overflow-hidden w-1/4 bg-fondlight p-4 border-1 border-contour rounded-md">
-                <h3 class="text-3xl font-bold">
-                    Un pic surréaliste en <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">2004</span>
-                </h3>
-                <h3 class="text-7xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">165</span> litres</h3>
-                <h3 class="text-3xl font-bold">par jour par habitant</h3>
-    
-                <p>
-                    Ce volume plus qu’inquiétant ne devrait malheureusement pas tarder à devenir un standard de consommation d’ici les prochaines années
-                </p>
-            </div>
-            </div>
-          </section>
-    
-          <section class="flex justify-around">
-            <div class="rounded-md bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                <h3 class="text-3xl font-bold">Des centaines de baignoires pleines
-                </h3>
-                <img src="/src/images/graph1.png" alt="baignoire" />
-    
-                <p class="bg-black">
-                    Quand on sait qu’un français passe en moyenne 9 minutes sous la douche, c’est à se demander si arrêter de se lavers ne serait pas une solution plus radicale pour reduire cette consommation. Chacun a le pouvoir d’effectuer de petits gestes, pour reduire petit à petit sa consommation quotidienne. Source : eaufrance.fr            </p>
-            </div>
-    
-            <div class="card overflow-hidden w-1/4 bg-fondlight p-4 border-1 border-contour rounded-md">
-                <h3 class="text-3xl font-bold">
-                    Des <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">habitudes</span> bien encrées dans le <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">quotidien</span> des français
-                </h3>
-                <h3 class="text-7xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">52%</span></h3>
-                <h3 class="text-3xl font-bold">des français prennent régulièrement des bains selon le groupe BVA</h3>
-    
-                <p>Une chasse d’eau par ci, une petite douche par là : Le cumul de ces petites actions devenues des routines pour beaucoup d’entre nous, constituent une très forte consommation d’eau pouvant être évitée.
-                </p>
-            </div>
-            </div>
-            
-          </section>
-    
-          <section class="flex justify-around">
-            <div
-              class="w-116 h-60 ml-36 mb-36 bg-light-dark border border-solid border-light p-9 text-light-grey text-sm relative flex items-center"
-            >
-              <h4 class="text-white text-5xl font-bold">
-                <span
-                  class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2"
-                  >Gérer</span
-                >
-                 sa consommation n’est pas toujours facile
-              </h4>
-              <div
-                class="absolute -bottom-8 -right-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45"
-              >
-                <a href="#">
-                  <svg
-                    class="transform -rotate-45"
-                    width="65"
-                    height="65"
-                    viewBox="0 0 65 65"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M31.5478 43.462C31.9383 43.8525 32.5715 43.8525 32.962 43.462L39.326 37.098C39.7165 36.7075 39.7165 36.0743 39.326 35.6838C38.9354 35.2933 38.3023 35.2933 37.9117 35.6838L32.2549 41.3407L26.598 35.6838C26.2075 35.2933 25.5743 35.2933 25.1838 35.6838C24.7933 36.0743 24.7933 36.7075 25.1838 37.098L31.5478 43.462ZM31.2549 21.7549L31.2549 42.7549L33.2549 42.7549L33.2549 21.7549L31.2549 21.7549Z"
-                      fill="#F3F3F3"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="card overflow-hidden w-24 bg-fondlight p-4 border-1 border-contour rounded-md">
-                <h3 class="text-3xl font-bold">
-                    Un <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">gaspillage</span> sous-estimé
-                </h3>
-                <h3 class="text-7xl font-bold">1 300
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">milliards</span></h3>
-                <h3 class="text-3xl font-bold">de litres d'eau potable sont perdus chaque année en France</h3>
-    
-                <p>
-                    La quantité d’eau utilisée peut fortement s’accroître en raison de légers problèmes domestiques. Celles-ci peuvent représenter 15 à 20 % de l’utilisation faite par les ménages. Des quantités astronomiques peuvent être gaspillées si ces problèmes ne sont pas réglés à temps. Il existe heureusement des solutions, des gestes que chacun peut adopter pour réduire au mieux sa consommation</p>
-                    <p>Source : flovea.fr</p>
-            </div>
-          </section>
-          
-        <section class="mt-80">
-            <div class="flex justify-around">
-                <div class="flex items-center gap-8">
-                    <div class=" p-4  border-1 bg-light-dark border border-solid border-contour transform -rotate-45 w-24 h-24 flex items-center justify-center">
+
+        <section class="mt-40 lg:mt-80" id="industrie">
+            <div class="flex justify-around flex-col gap-16 lg:flex-row lg:gap-0 ml-4 lg:ml-0">
+                <div class="flex items-center gap-8" data-aos="zoom-in">
+                    <div class="p-4 w-20 h-20 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 lg:w-24 lg:h-24 flex items-center justify-center">
                         <svg class="transform rotate-45" width="53" height="54" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M46.6073 27C46.6073 25.725 46.4586 24.525 46.2356 23.325L53 19.35L46.31 7.65L39.5456 11.625C37.6872 10.05 35.5316 8.775 33.2272 7.95V0H19.8471V7.875C17.4684 8.7 15.3871 9.975 13.5288 11.55L6.69004 7.65L0 19.35L6.76438 23.325C6.54137 24.525 6.39271 25.725 6.39271 27C6.39271 28.275 6.54137 29.475 6.76438 30.675L0 34.65L6.69004 46.35L13.4544 42.375C15.3128 43.95 17.4684 45.225 19.7728 46.05V54H33.1529V46.125C35.5316 45.3 37.6129 44.025 39.4712 42.45L46.2356 46.425L52.9257 34.725L46.1613 30.75C46.4586 29.475 46.6073 28.275 46.6073 27Z" fill="url(#paint0_linear_594_153)"/>
                             <defs>
@@ -296,10 +163,10 @@
                             </defs>
                         </svg>
                     </div>
-                    <h4 class="text-white font-bold text-3xl">Industrie</h4>
+                    <h4 class="text-white font-bold text-3xl" >Industrie</h4>
                 </div>
-                <div class="flex items-center gap-8">
-                    <div class=" p-4 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 w-24 h-24 flex items-center justify-center">
+                <div class="flex items-center gap-8" data-aos="zoom-in">
+                    <div class="p-4 w-20 h-20 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 lg:w-24 lg:h-24 flex items-center justify-center">
                         <svg class="transform rotate-45" width="35" height="50" viewBox="0 0 35 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M16.9282 0C-9.03559 28.5714 0.021553 50 16.9282 50C33.8348 50 46.5148 29.7619 16.9282 0Z" fill="url(#paint0_linear_594_158)"/>
                             <defs>
@@ -312,8 +179,8 @@
                     </div>
                     <h4 class="text-white font-bold text-3xl">Boisson</h4>
                 </div>
-                <div class="flex items-center gap-8">
-                    <div class="p-4 border-1 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 w-24 h-24 flex items-center justify-center">
+                <div class="flex items-center gap-8" data-aos="zoom-in">
+                    <div class="p-4 w-20 h-20 border-1 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 lg:w-24 lg:h-24 flex items-center justify-center">
                         <svg class="transform rotate-45" width="45" height="70" viewBox="0 0 45 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M44.4127 28H22.2698V0L0.126953 42H22.2698V70L44.4127 28Z" fill="url(#paint0_linear_594_163)"/>
                             <defs>
@@ -326,8 +193,8 @@
                     </div>
                     <h4 class="text-white font-bold text-3xl">Energie</h4>
                 </div>
-                <div class="flex items-center gap-8">
-                    <div class="  p-4 border-1 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 w-24 h-24 flex items-center justify-center">
+                <div class="flex items-center gap-8" data-aos="zoom-in">
+                    <div class="p-4 w-20 h-20 border-1 border-1 bg-light-dark border border-solid border-contour transform -rotate-45 lg:w-24 lg:h-24 flex items-center justify-center">
                         <svg class="transform rotate-45" width="49" height="58" viewBox="0 0 49 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M19.9113 48.333C19.9113 38.6662 10.2446 28.9995 10.2446 28.9995C10.2446 28.9995 0.577881 38.6662 0.577881 48.333C0.577881 49.493 0.70677 50.3952 0.96455 51.0396C2.12456 55.0352 5.86236 57.9997 10.2446 57.9997C14.6268 57.9997 18.3646 55.0352 19.5247 51.0396C19.7824 50.3952 19.9113 49.493 19.9113 48.333Z" fill="url(#paint0_linear_594_168)"/>
                             <path d="M48.9116 48.333C48.9116 38.6662 39.2448 28.9995 39.2448 28.9995C39.2448 28.9995 29.5781 38.6662 29.5781 48.333C29.5781 49.493 29.707 50.3952 29.9648 51.0396C31.1248 55.0352 34.8626 57.9997 39.2448 57.9997C43.6271 57.9997 47.3649 55.0352 48.5249 51.0396C48.7827 50.3952 48.9116 49.493 48.9116 48.333Z" fill="url(#paint1_linear_594_168)"/>
@@ -351,9 +218,8 @@
                     <h4 class="text-white font-bold text-3xl">Agriculture</h4>
                 </div>
             </div>
-            <div class="flex justify-between mt-28">
-
-                <div class="bg-light-dark border border-solid border-light p-6 w-33% relative">
+            <div class="flex flex-col gap-4 justify-between mt-28 lg:flex-row" data-aos="fade-right">
+                <div class="bg-light-dark border border-solid border-light p-4 pt-12 lg:w-33% lg:p-6 relative ">
                     <h2 class="text-4xl text-white font-bold">Une consommation <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">inégale</span> selon les secteurs en <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">France</span></h2>
                     <img src="../src/images/consommation_01.png" alt="graphique de la consommation inégale en France" class="my-10">
                     <p class="text-sm text-light-grey">Volume d’eau nécessaire pour la production des biens et des services consommés.</p>
@@ -361,7 +227,7 @@
                     <p class="text-sm text-light-grey">Source : francetvinfo.fr</p>
                     <p class="text-sm text-light-grey text-right">Auteur: Kieffer Dahomey</p>
 
-                    <div class="absolute -top-[33px] -left-[33.5px] bg-gradient-to-r from-purple-gradient to-purple-gradient2 transform rotate-45">
+                    <div class="absolute top-[-32px] left-[154px] lg:-top-[33px] lg:-left-[33.5px] bg-gradient-to-r from-purple-gradient to-purple-gradient2 transform rotate-45">
                         <div class="cursor-pointer" id="buttonPlus" >
                             <svg class="transform rotate-45" id="plus" width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M32.2548 21.7549L32.2548 42.7549" stroke="#F3F3F3" stroke-width="2"/>
@@ -373,8 +239,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-33%">
-                    <div class="bg-light-dark border border-solid border-light mb-6 text-sm text-light-grey p-6 hidden" id="hidden-container">
+                <div class="lg:w-33%">
+                    <div class="bg-light-dark border border-solid border-light mb-6 text-sm text-light-grey p-4 lg:p-6 hidden" id="hidden-container" >
                         <p class="text-light-grey">
                             L'eau est utilisée dans de nombreux secteurs industriels, tels que l'énergie, les mines et les papeteries. Sans eau, 
                             ces industries ne pourraient pas fonctionner.
@@ -387,9 +253,9 @@
                             C’est aussi le secteur le plus gros consommateur d’eau et l’un des plus gros pollueurs de cette ressource.
                         </p>
                     </div>
-                    <div class="bg-light-dark border border-solid border-light">
-                        <div class="p-6">
-                            <h1 class="text-white text-8xl font-bold">32.3 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">milliards</span></h1>
+                    <div class="bg-light-dark border border-solid border-light" data-aos="flip-up">
+                        <div class="p-4 lg:p-6">
+                            <h1 class="text-white text-6xl lg:text-8xl font-bold">32.3 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">milliards</span></h1>
                             <p class="font-bold text-white">de m3 d'eau prélevés en 2018</p>
                             <p class="text-sm text-light-grey mt-3">Le prélèvement d'eau douce pour la production d'énergie constitue une majeure partie des prélèvements totaux effectués en France</p>
                             <p class="text-sm text-light-grey my-2">Les autres secteurs sont considérablement moins hydrovore concernant ce prélèvement</p>
@@ -403,7 +269,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-light-dark border border-solid border-light w-33% p-6 text-sm text-light-grey">
+                <div class="bg-light-dark border border-solid border-light lg:w-33% p-4 lg:p-6 text-sm text-light-grey" data-aos="fade-right">
                     <h2 class="text-4xl text-white font-bold">L'eau, une nécessité pour la <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">production énergétique</span></h2>   
                     <img src="../src/images/consommation_02.png" alt="image graphique" class="my-10" id="consommation-image">
                     <p id="consommation-text">Volume et consommation d'eau douce prélevée en fonction des secteurs d'activité en 2018</p>
@@ -413,16 +279,16 @@
             </div>
         </section>
 
-        <section class="mt-80 flex justify-center gap-4">
-            <div class="w-105 bg-light-dark border border-solid border-light p-6 h-fit">
+        <section class="mt-40 flex flex-col justify-center gap-4 lg:flex-row lg:mt-80">
+            <div class="lg:w-105 bg-light-dark border border-solid border-light p-6 h-fit" data-aos="zoom-in-down">
                 <h2 class="text-3xl font-bold text-white">Une <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">consommation</span> annuelle à la <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">hausse</span> </h2>
-                <h1 class="text-white text-8xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">+50%</span> en 2030</h1>
-                <p class="text-lg text-light-grey font-bold mb-2">C'est l'augmentation de la demande, prévue par l'ONU</p>
+                <h1 class="text-white text-6xl lg:text-8xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">+50%</span> en 2030</h1>
+                <p class="text-lg text-light-grey font-bold my-2">C'est l'augmentation de la demande, prévue par l'ONU</p>
                 <p class="text-sm text-light-grey">Depuis quelques années maintenant, une prise de conscience à été faite concernant la surconsommation d'eau. Cependant, celle-ci cessera pas d'augmenter dans les décennies à venir.</p>
             </div>
-            <div class="bg-gradient-to-r from-blue-gradient to-blue-gradient2 p-5 ">
+            <div class="bg-gradient-to-r from-blue-gradient to-blue-gradient2 p-5 " data-aos="zoom-in-up">
                 <canvas id="myChart" width="717" height="400"></canvas>
-                <div class="flex justify-center mt-">
+                <div class="flex justify-center md:w-full">
                     <svg width="650" height="157" viewBox="0 0 650 157" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="302.373" y="23.5161" width="32" height="32" transform="rotate(-45 302.373 23.5161)" fill="#161616"/>
                         <rect width="650" height="133" transform="translate(0 23.1436)" fill="#161616"/>
@@ -435,10 +301,10 @@
             </div>
         </section>
 
-        <section class="mt-80 flex gap-4">
-            <div class="w-105 bg-light-dark border border-solid border-light p-6 h-fit text-sm text-light-grey">
+        <section class="mt-40 flex flex-col gap-4 lg:flex-row lg:mt-80">
+            <div class="lg:w-105 bg-light-dark border border-solid border-light p-6 h-fit text-sm text-light-grey" data-aos="fade-left">
                 <h2 class="text-3xl font-bold text-white"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">Economisez</span> de l'eau et de <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">l'argent</span> </h2>
-                <h1 class="text-white text-8xl font-bold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">3 373</span>€</h1>
+                <h1 class="text-white text-6xl lg:text-8xl font-bold mb-2 lg:mb-0"><span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2">3 373</span>€</h1>
                 <p class="font-bold mb-2">peuvent être économisé en 1 an en réduisant le temps passé sous la douche</p>
                 <p>
                     Les français passent en moyenne plus de 9min sous la douche chaque jour. En réduisant cette durée de seulement 4min, il est possible 
@@ -446,13 +312,13 @@
                 </p>
                 <p class="mt-2"> Source : Calculs personnels</p>
             </div>
-            <div class="relative">
+            <div class="relative" data-aos="fade-right">
                 <!-- <iframe width="960" height="618" src="https://www.youtube.com/embed/TI_z4kC_2M4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-                <video controls class="h-116">
+                <video controls class="lg:h-116 bg-light-dark border border-solid border-light">
                     <source src="../src/videos/motion.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la balise vidéo.
                   </video>
-                <div class="absolute -bottom-8 -left-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45">
+                <div class="hidden lg:block absolute -bottom-8 -left-8 bg-gradient-to-r from-blue-gradient to-blue-gradient2 transform rotate-45">
                     <a href="#">
                         <svg class="transform -rotate-45"width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M32.9619 21.0478C32.5714 20.6573 31.9382 20.6573 31.5477 21.0478L25.1838 27.4117C24.7932 27.8023 24.7932 28.4354 25.1838 28.826C25.5743 29.2165 26.2074 29.2165 26.598 28.826L32.2548 23.1691L37.9117 28.8259C38.3022 29.2165 38.9354 29.2165 39.3259 28.8259C39.7164 28.4354 39.7164 27.8023 39.3259 27.4117L32.9619 21.0478ZM31.2548 21.7549L31.2548 42.7549L33.2548 42.7549L33.2548 21.7549L31.2548 21.7549Z" fill="#F3F3F3"/>
@@ -462,9 +328,9 @@
             </div>
         </section>
 
-        <footer class="mt-80 text-center">
-            <p class="text-base text-white font-bold mb-6">Rappelez vous bien que "L'eau, dans 20/30 ans y'en aura plus", JCVD (2011)</p>
-            <div class="flex gap-5 justify-center border-b-2 pb-8">
+        <footer class="mt-40 lg:mt-80 text-center">
+            <p class="text-base text-transparent bg-clip-text bg-gradient-to-r from-blue-gradient to-blue-gradient2 lg:text-white font-bold mb-6 ">Rappelez vous bien que "L'eau, dans 20/30 ans y'en aura plus", JCVD (2011)</p>
+            <div class="flex  flex-wrap gap-5 justify-center border-b-2 pb-8">
                 <p class="text-base text-white font-bold">KIEFFER Dahomey</p>
                 <p class="text-base text-white font-bold">HAMOT Hugo</p>
                 <p class="text-base text-white font-bold">LUDWIG Franck</p>
