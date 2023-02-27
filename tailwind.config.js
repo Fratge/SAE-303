@@ -16,6 +16,7 @@ module.exports = {
         '120': '45rem',
         '105': '500px',
         '117': '650px',
+        '120': '750px'
       },
       fontSize: {
         '10xl': '12rem',
